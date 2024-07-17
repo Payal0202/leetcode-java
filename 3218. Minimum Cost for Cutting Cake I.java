@@ -1,3 +1,4 @@
+//Approach : Sorting and Greedy Strategy
 class Solution {
     // Method to reverse the elements of an array
     public static void reverse(int[] array) {
