@@ -12,6 +12,7 @@ class Solution {
 
     // Method to find the minimum cost to cut a chocolate bar
     public int minimumCost(int m, int n, int[] horizontalCut, int[] verticalCut) {
+        //maintain count of horizonal sections and vertical section after cut which are treated as separate block
         int horizontalBlock = 1, verticalBlock = 1;
         int i = 0, j = 0;
         int ans = 0;
